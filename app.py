@@ -15,6 +15,7 @@ sentiment_pipeline = pipeline("sentiment-analysis")
 
 # Sets the title of the Streamlit web application
 st.title("Financial Sentiment Analysis Using HuggingFace 😀 \n Team Name:- Free Thinkers")
+st.subheader ("Local Push")
 
 # Displays a text input box where the user can enter a sentence for sentiment analysis.
 st.write("Enter a Sentence to Analyze the Sentiment:")
@@ -32,7 +33,7 @@ if user_input:
 
 
 # Displaying Results:
-#If there is user input, it displays the sentiment and confidence score. 
+# If there is user input, it displays the sentiment and confidence score. 
 # The sentiment is extracted from the "label" field in the result, and the confidence score is extracted from the "score" field.
     st.write(f"Sentiment: {sentiment}")
     st.write(f"Confidence: {confidence:.2%}")
