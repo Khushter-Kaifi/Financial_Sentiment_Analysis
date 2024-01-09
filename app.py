@@ -15,7 +15,6 @@ sentiment_pipeline = pipeline("sentiment-analysis")
 
 # Sets the title of the Streamlit web application
 st.title("Financial Sentiment Analysis Using HuggingFace 😀 \n Team Name:- Free Thinkers")
-st.subheader ("Local Push")
 
 # Displays a text input box where the user can enter a sentence for sentiment analysis.
 st.write("Enter a Sentence to Analyze the Sentiment:")
